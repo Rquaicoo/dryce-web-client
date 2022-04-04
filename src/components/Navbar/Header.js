@@ -5,7 +5,7 @@ import { LinkNames } from './Navlinks';
 import Buttons from '../Buttons/Buttons';
 
 class Header extends Component {
-
+  
   // clickState condition variables
   state = {clicked: false}
 
@@ -15,12 +15,9 @@ class Header extends Component {
 
   render () {
     return (
-
       <header>
-
           <nav className="navBar">
             <h1>DrYce</h1>
-
             {/*menu bar with js condition==> ? clicked "classMenu" : "bar or X"*/}
             <div className='navIcon' onClick={this.handleClick}>
               <i class={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-xmark"}></i>
@@ -39,16 +36,19 @@ class Header extends Component {
                 })}
             </ul>{/*navLinks End*/}
             
-            <Buttons 
-              title="Sign In" 
-              color={"white"} 
-              textColor={"black"} 
-              margin={'20px'} 
-              border={"2px"} 
-              bordercolor={"black"}>
+            <div className='buttons'>
+              <Buttons 
+                title="Sign In" 
+                color={"white"} 
+                textColor={"rgb(255, 132, 17)"} 
+                margin={'20px'} 
+                border={"0"}
+                bordercolor={"black"}>
 
-            </Buttons>
-            <Buttons title="Get Started" color={"rgb(9, 69, 231)"} textColor={"white"} margin={"50px"}></Buttons>
+              </Buttons>
+              <Buttons title="Get Started" color={"rgb(9, 69, 231)"} textColor={"white"} ></Buttons>
+            </div>
+
           </nav>
 
       </header>
