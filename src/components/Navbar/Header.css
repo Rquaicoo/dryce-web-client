@@ -1,0 +1,56 @@
+.navBar {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4px;
+}
+
+.navBar h1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-left: 50px;
+}
+
+.navBar .nav-menu {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  list-style: none;
+}
+
+.navBar .nav-menu li {
+  display: inline;
+  padding: 0px 20px 20px 20px;
+}
+
+.navBar .nav-menu li a {
+  text-decoration: none;
+  color: #636363;
+}
+
+.navBar .nav-menu li a:hover {
+  color: black;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.navIcon {
+  display: none;
+}
+
+header {
+  background-image: url("../../assets/images/orangebackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=Header.css.map */
