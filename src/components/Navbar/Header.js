@@ -40,9 +40,9 @@ class Header extends Component {
               <Buttons 
                 title="Sign In" 
                 color={"white"} 
-                textColor={"rgb(255, 132, 17)"} 
+                textColor={"black"} 
                 margin={'20px'} 
-                border={"0"}
+                border={"1px"}
                 bordercolor={"black"}>
 
               </Buttons>

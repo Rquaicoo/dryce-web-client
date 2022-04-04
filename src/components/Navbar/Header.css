@@ -1,4 +1,5 @@
 .navBar {
+  background-color: white;
   width: 100%;
   margin: auto;
   display: -webkit-box;
@@ -20,14 +21,17 @@
 
 .navBar .nav-menu li a {
   text-decoration: none;
-  color: white;
+  color: #636363;
 }
 
 .navBar .nav-menu li a:hover {
-  color: #0945e7;
+  color: black;
+  text-shadow: 1px 1px 1px #5996f9;
   font-weight: 400;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ff8411;
 }
 
 .navBar .nav-menu .buttons {
@@ -39,7 +43,7 @@
 }
 
 header {
-  background-image: url("../../assets/images/purplebg.svg");
+  background-image: url("../../assets/images/bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
