@@ -1,5 +1,5 @@
 import Header from './components/Navbar/Header'
-import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
+//import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
 function App() {
   return (
