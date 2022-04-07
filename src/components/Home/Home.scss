@@ -1,0 +1,30 @@
+$bold-fonts: "Fredoka One", cursive;
+$regular-fonts: "Quicksand", sans-serif;
+
+h1, h4{
+    font-family: $bold-fonts;
+}
+
+.container{
+    font-family: $regular-fonts;
+    display: flex;
+    justify-content: space-between;
+    .home-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        margin-top: -40px;
+        height: 100vh;
+        .home-description{
+            align-self: center;
+            // min-height: 100vh;
+        }
+        .home-image{
+            align-self: center;
+            // min-height: 100vh;
+        }
+    }
+}

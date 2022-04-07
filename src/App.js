@@ -1,4 +1,5 @@
 import Header from './components/Navbar/Header'
+// import Services from './components/Services/Services';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     // </Router>
     <div className='container'>
         <Header/>
-
+        {/* <Services/> */}
     </div>
   );
 }
