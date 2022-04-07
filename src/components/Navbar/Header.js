@@ -3,6 +3,7 @@ import './Header.css';
 import './Navlinks.js';
 import { LinkNames } from './Navlinks';
 import Buttons from '../Buttons/Buttons';
+import Home from '../Home/Home';
 
 class Header extends Component {
   
@@ -17,39 +18,41 @@ class Header extends Component {
     return (
       <header>
           <nav className="navBar">
-            <h1>DrYce</h1>
-            {/*menu bar with js condition==> ? clicked "classMenu" : "bar or X"*/}
-            <div className='navIcon' onClick={this.handleClick}>
-              <i class={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-xmark"}></i>
-            </div>
-    
-            {/*nav links, imported from Navlinks.js #used Links*/}
-            <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                {LinkNames.map((link, index) =>{
-                  return (
-                    <li key={index}>
-                      <a className={link.cName} href={link.url}>
-                        {link.name}
-                      </a>
-                    </li>
-                  );
-                })}
-            </ul>{/*navLinks End*/}
-            
-            <div className='buttons'>
-              <Buttons 
-                title="Sign In" 
-                color={"white"} 
-                textColor={"black"} 
-                margin={'20px'} 
-                border={"1px"}
-                bordercolor={"black"}>
+              <div className="navBar-container">
+                <h1>DrYce</h1>
+                {/*menu bar with js condition==> ? clicked "classMenu" : "bar or X"*/}
+                <div className='navIcon' onClick={this.handleClick}>
+                  <i class={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-xmark"}></i>
+                </div>
+        
+                <div className='buttons'>
+                  {/*nav links, imported from Navlinks.js #used Links*/}
+                  <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                      {LinkNames.map((link, index) =>{
+                        return (
+                          <li key={index}>
+                            <a className={link.cName} href={link.url}>
+                              {link.name}
+                            </a>
+                          </li>
+                        );
+                      })}
+                    <Buttons 
+                      title="Sign In" 
+                      color={"rgb(255, 189, 23)"} 
+                      textColor={"white"} 
+                      margin={'20px'} 
+                      >
 
-              </Buttons>
-              <Buttons title="Get Started" color={"rgb(9, 69, 231)"} textColor={"white"} ></Buttons>
+                    </Buttons>
+                    <Buttons title="Get Started" color={"rgb(9, 69, 231)"} textColor={"white"} ></Buttons>
+                  </ul>{/*navLinks End*/}
+              </div>
+              
             </div>
 
           </nav>
+          <Home/>
 
       </header>
     )
