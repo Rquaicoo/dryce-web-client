@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import aboutImage from '../../assets/images/wash-machine.jpg'
+import servicesImage from '../../assets/images/wash-machine.jpg'
 import Buttons from '../Buttons/Buttons'
 
 const Services = () => {
@@ -8,7 +8,7 @@ const Services = () => {
     <div className='container-services'>
         <div className='services-container'>
             <div className='services-description'>
-                <img src={aboutImage} alt="about Image" height={400} width={500} className='services-img'></img>
+                <img src={servicesImage} alt="services-img" height={400} width={500} className='services-img'></img>
             </div>
 
             <div className='services-content'>

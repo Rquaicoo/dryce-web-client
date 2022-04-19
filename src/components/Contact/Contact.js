@@ -48,7 +48,7 @@ const Contact = () => {
                 </Buttons> */}
             </div>
             <div className='contact-description'>
-                <img src={contactImg} alt="contact Image" height={400} width={500} className='contact-img'></img>
+                <img src={contactImg} alt="contact-Img" height={400} width={500} className='contact-img'></img>
             </div>
 
             
