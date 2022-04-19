@@ -8,7 +8,7 @@ const Services = () => {
     <div className='container-services'>
         <div className='services-container'>
             <div className='services-description'>
-                <img src={aboutImage} alt="about Image" height={400} width={500} className='services-img'></img>
+                <img src={aboutImage} alt="washing machine and ladder" height={400} width={500} className='services-img'></img>
             </div>
 
             <div className='services-content'>
