@@ -1,8 +1,8 @@
 h1, h2, h4 {
-  font-family: "Fredoka One", cursive;
+  font-family: "Roboto Mono", monospace;
 }
 
-.container-services {
+.container-about {
   font-family: "Quicksand", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,7 +15,7 @@ h1, h2, h4 {
   background-color: #f6f3f1;
 }
 
-.container-services .services-container {
+.container-about .about-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,31 +35,31 @@ h1, h2, h4 {
   border-radius: 10px;
 }
 
-.container-services .services-container .services-description {
+.container-about .about-container .about-description {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   padding: 30px;
 }
 
-.container-services .services-container .services-content {
+.container-about .about-container .about-content {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   padding: 30px;
 }
 
-.container-services .services-container .services-content h2 {
+.container-about .about-container .about-content h2 {
   width: 25%;
   padding-bottom: 15px;
   border-bottom: 2px solid #ffbd17;
 }
 
-.container-services .services-container .services-content p {
+.container-about .about-container .about-content p {
   margin-top: 30px;
 }
 
-.container-services .services-container .services-content Button {
+.container-about .about-container .about-content Button {
   -webkit-transform: translatey(0px);
           transform: translatey(0px);
   -webkit-animation: float 6s ease-in-out infinite;
@@ -67,7 +67,7 @@ h1, h2, h4 {
   margin-top: 30px;
 }
 
-.container-services .services-img {
+.container-about .about-img {
   border-radius: 10px;
 }
 
@@ -112,4 +112,4 @@ h1, h2, h4 {
             transform: translatey(0px);
   }
 }
-/*# sourceMappingURL=Services.css.map */
+/*# sourceMappingURL=About.css.map */

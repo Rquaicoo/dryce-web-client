@@ -1,0 +1,72 @@
+$bold-fonts: 'Roboto Mono', monospace;
+$regular-fonts: "Quicksand", sans-serif;
+@import '../Navbar/Colors.scss';
+
+h1, h2, h4{
+    font-family: $bold-fonts;
+}
+
+.container-contact{
+    font-family: $regular-fonts;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    background-color: $lightbrown;
+    .contact-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        background-color: $black;
+        color: $white;
+        // height: 100vh;
+        .contact-description{
+            align-self: center;
+            padding: 30px;
+        }
+        .contact-content{
+            align-self: center;
+            padding: 30px;
+            width: 100%;
+            h2{
+                padding-bottom: 15px;
+            }
+            form{
+                align-items: center;
+                padding: 30px;
+                input{
+                    margin-top: 10px;
+                    width: 90%;
+                    outline: none;
+                    padding: 10px;
+                    background-color: $black;
+                    border: none;
+                    border-bottom: 2px solid $white;
+                    color: $lightgrey;
+                }
+                textarea{
+                    margin-top: 10px;
+                    width: 90%;
+                    resize: none;
+                    outline: none;
+                    padding: 10px;
+                    background-color: $black;
+                    border: none;
+                    border-bottom: 2px solid $white;
+                    color: $lightgrey;
+                }
+                label{
+                    margin-top: 20px;
+                }
+                Buttons{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }.contact-img{
+        border-radius: 10px;
+    }
+}

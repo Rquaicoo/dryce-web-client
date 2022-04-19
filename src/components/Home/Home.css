@@ -1,8 +1,8 @@
 h1, h4 {
-  font-family: "Fredoka One", cursive;
+  font-family: "Roboto Mono", monospace;
 }
 
-.container {
+.container-home {
   font-family: "Quicksand", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,7 +12,7 @@ h1, h4 {
           justify-content: space-between;
 }
 
-.container .home-container {
+.container-home .home-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,13 +32,13 @@ h1, h4 {
   height: 100vh;
 }
 
-.container .home-container .home-description {
+.container-home .home-container .home-description {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.container .home-container .home-image {
+.container-home .home-container .home-image {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;

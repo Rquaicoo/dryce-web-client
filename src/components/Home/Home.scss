@@ -1,11 +1,12 @@
-$bold-fonts: "Fredoka One", cursive;
+$bold-fonts: 'Roboto Mono', monospace;
+// "Fredoka One", cursive;
 $regular-fonts: "Quicksand", sans-serif;
 
 h1, h4{
     font-family: $bold-fonts;
 }
 
-.container{
+.container-home{
     font-family: $regular-fonts;
     display: flex;
     justify-content: space-between;

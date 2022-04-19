@@ -1,18 +1,15 @@
 import React from 'react'
-import './Services.css'
-import servicesImage from '../../assets/images/wash-machine.jpg'
+import './About.css'
 import Buttons from '../Buttons/Buttons'
+import aboutImg from '../../assets/images/about-wash.jpg'
 
-const Services = () => {
+const About = () => {
   return (
-    <div className='container-services'>
-        <div className='services-container'>
-            <div className='services-description'>
-                <img src={servicesImage} alt="services-img" height={400} width={500} className='services-img'></img>
-            </div>
+    <div className='container-about'>
+        <div className='about-container'>
 
-            <div className='services-content'>
-                <h2>SERVICES</h2>
+            <div className='about-content'>
+                <h2>ABOUT US</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -27,6 +24,9 @@ const Services = () => {
                         
                 </Buttons>
             </div>
+            <div className='about-description'>
+                <img src={aboutImg} alt="about-img" height={400} width={500} className='about-img'></img>
+            </div>
 
             
 
@@ -35,4 +35,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default About

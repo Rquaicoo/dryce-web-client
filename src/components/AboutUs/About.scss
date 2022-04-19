@@ -1,4 +1,4 @@
-$bold-fonts: "Fredoka One", cursive;
+$bold-fonts: 'Roboto Mono', monospace;
 $regular-fonts: "Quicksand", sans-serif;
 @import '../Navbar/Colors.scss';
 
@@ -6,14 +6,14 @@ h1, h2, h4{
     font-family: $bold-fonts;
 }
 
-.container-services{
+.container-about{
     font-family: $regular-fonts;
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 30px;
     background-color: $lightbrown;
-    .services-container{
+    .about-container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -23,11 +23,11 @@ h1, h2, h4{
         background-color: $white;
         border-radius: 10px;
         // height: 100vh;
-        .services-description{
+        .about-description{
             align-self: center;
             padding: 30px;
         }
-        .services-content{
+        .about-content{
             align-self: center;
             padding: 30px;
             h2{
@@ -44,7 +44,7 @@ h1, h2, h4{
                 margin-top: 30px;
             }
         }
-    }.services-img{
+    }.about-img{
         border-radius: 10px;
     }
 }
