@@ -1,7 +1,7 @@
 @import "./Colors.scss";
 
 .navBar {
-  background-color: $white;
+  background-color: $lightbrown;
   width: 100%;
   margin: auto;
   // position: fixed;
@@ -32,10 +32,6 @@
       //     border-bottom: 3px solid $orange;
       //     transition: 0.2s ease-in-out;
       //   }
-    }
-    .buttons{
-      // align-self: flex-end;
-      // margin-top: 10px;
     }
   }
 

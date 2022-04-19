@@ -1,0 +1,98 @@
+h1, h2, h4 {
+  font-family: "Roboto Mono", monospace;
+}
+
+.container-contact {
+  font-family: "Quicksand", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #f6f3f1;
+}
+
+.container-contact .contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+
+.container-contact .contact-container .contact-description {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 30px;
+}
+
+.container-contact .contact-container .contact-content {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.container-contact .contact-container .contact-content h2 {
+  padding-bottom: 15px;
+}
+
+.container-contact .contact-container .contact-content form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.container-contact .contact-container .contact-content form input {
+  margin-top: 10px;
+  width: 90%;
+  outline: none;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid white;
+  color: rgba(255, 255, 255, 0.777);
+}
+
+.container-contact .contact-container .contact-content form textarea {
+  margin-top: 10px;
+  width: 90%;
+  resize: none;
+  outline: none;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid white;
+  color: rgba(255, 255, 255, 0.777);
+}
+
+.container-contact .contact-container .contact-content form label {
+  margin-top: 20px;
+}
+
+.container-contact .contact-container .contact-content form Buttons {
+  margin-top: 30px;
+}
+
+.container-contact .contact-img {
+  border-radius: 10px;
+}
+/*# sourceMappingURL=Contact.css.map */
