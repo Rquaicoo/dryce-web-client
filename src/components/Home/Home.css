@@ -38,6 +38,12 @@ h1, h4 {
       align-self: center;
 }
 
+.container-home .home-container .home-description h1 {
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+}
+
 .container-home .home-container .home-image {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
