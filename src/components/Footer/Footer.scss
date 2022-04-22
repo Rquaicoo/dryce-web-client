@@ -28,7 +28,7 @@ h1, h2, h4{
                  padding: 25px;
                  color: $black;
                  &:hover{
-                    color: $orange;
+                    color: $blue;
                  }
                  i{
                      font-size: 25px;
@@ -51,7 +51,7 @@ h1, h2, h4{
                         color: $black;
                         text-decoration: none;
                         &:hover{
-                            color: $orange;
+                            color: $blue;
                             transition-delay: 0.5s;
                             transition: ease-in-out;
                         }
@@ -66,7 +66,7 @@ h1, h2, h4{
                 color: $black;
                 text-decoration: none;
                 &:hover{
-                    color: $orange;
+                    color: $blue;
                     transition-delay: 0.5s;
                     transition: ease-in-out;
                 }

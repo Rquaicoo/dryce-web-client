@@ -44,7 +44,7 @@ h1, h2, h4 {
 }
 
 .container-footer .footer-container .footer-links a:hover {
-  color: #ffbd17;
+  color: #5996f9;
 }
 
 .container-footer .footer-container .footer-links a i {
@@ -88,7 +88,7 @@ h1, h2, h4 {
 }
 
 .container-footer .footer-container .footer-nav ul li a:hover {
-  color: #ffbd17;
+  color: #5996f9;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
   -webkit-transition: ease-in-out;
@@ -105,7 +105,7 @@ h1, h2, h4 {
 }
 
 .container-footer .footer-container .footer-copyright a:hover {
-  color: #ffbd17;
+  color: #5996f9;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
   -webkit-transition: ease-in-out;
