@@ -6,7 +6,7 @@ import Buttons from '../Buttons/Buttons'
 const Home = () => {
   return (
     <div className='container-home'>
-        <div className='home-container'>
+        <div className='home-container' id="Home">
 
             <div className='home-description'>
                 <h1>WELCOME TO DRYCE LAUNDRY SERVICES</h1>

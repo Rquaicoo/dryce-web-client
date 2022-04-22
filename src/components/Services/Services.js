@@ -6,7 +6,7 @@ import Buttons from '../Buttons/Buttons'
 const Services = () => {
   return (
     <div className='container-services'>
-        <div className='services-container'>
+        <div className='services-container' id="Services">
             <div className='services-description'>
                 <img src={servicesImage} alt="services-img" height={400} width={500} className='services-img'></img>
             </div>

@@ -6,7 +6,7 @@ import contactImg from '../../assets/images/contact-us.jpg'
 const Contact = () => {
   return (
     <div className='container-contact'>
-        <div className='contact-container'>
+        <div className='contact-container' id="Contact">
 
             <div className='contact-content'>
                 <form>

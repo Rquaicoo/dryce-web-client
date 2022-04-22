@@ -1,22 +1,22 @@
 export const LinkNames = [
     {
         name: "Home",
-        url: '#',
+        url: '#Home',
         cName: 'navLink',
     },
     {
         name: "Services",
-        url: '#',
+        url: '#Services',
         cName: 'navLink',
     },
     {
         name: "About Us",
-        url: '#',
+        url: '#About',
         cName: 'navLink',
     },
     {
         name: "Contact Us",
-        url: '#',
+        url: '#Contact',
         cName: 'navLink',
     },
 ]

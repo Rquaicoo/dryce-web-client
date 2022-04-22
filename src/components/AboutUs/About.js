@@ -6,7 +6,7 @@ import aboutImg from '../../assets/images/about-wash.jpg'
 const About = () => {
   return (
     <div className='container-about'>
-        <div className='about-container'>
+        <div className='about-container' id="About">
 
             <div className='about-content'>
                 <h2>ABOUT US</h2>
