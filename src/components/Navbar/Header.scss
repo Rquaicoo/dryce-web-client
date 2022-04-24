@@ -8,6 +8,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
     h1 {
       // flex-grow: 1;
       // padding-left: 50px;
@@ -21,6 +23,7 @@
       a {
         text-decoration: none;
         color: $grey;
+        padding: 10px;
         &:hover {
           color: $black;
           text-shadow: 1px 1px 1px $blue;
@@ -37,6 +40,13 @@
 
 }
 
+button{
+  &:hover {
+    cursor: pointer;
+    color: $black;
+  }
+}
+
 .navBar-container{
   display: flex;
   justify-content: space-between;
@@ -51,7 +61,7 @@
 }
 
 header {
-  background-image: url("../../assets/images/backgroundbr.svg");
+  background-image: url("../../assets/images/bg1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

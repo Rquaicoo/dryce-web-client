@@ -42,10 +42,11 @@ class Header extends Component {
                       color={"rgb(255, 189, 23)"} 
                       textColor={"white"} 
                       margin={'20px'} 
+                      className={"signIn"}
                       >
 
                     </Buttons>
-                    <Buttons title="Get Started" color={"rgb(9, 69, 231)"} textColor={"white"} ></Buttons>
+                    <Buttons title="Get Started" color={"rgb(9, 69, 231)"} textColor={"white"} className={"getStarted"}></Buttons>
                   </ul>{/*navLinks End*/}
               </div>
               

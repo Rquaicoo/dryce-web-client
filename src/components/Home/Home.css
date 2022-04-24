@@ -1,9 +1,11 @@
-h1, h4 {
-  font-family: "Roboto Mono", monospace;
+h3 {
+  font-family: "Quicksand", sans-serif;
 }
 
 .container-home {
   font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,15 +35,15 @@ h1, h4 {
 }
 
 .container-home .home-container .home-description {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  width: 60%;
+  color: white;
 }
 
 .container-home .home-container .home-description h1 {
   font-size: 3rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: bolder;
+  color: white;
 }
 
 .container-home .home-container .home-image {

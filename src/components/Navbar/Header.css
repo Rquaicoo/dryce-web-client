@@ -11,6 +11,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .navBar .nav-menu {
@@ -25,6 +27,7 @@
 .navBar .nav-menu li a {
   text-decoration: none;
   color: #636363;
+  padding: 10px;
 }
 
 .navBar .nav-menu li a:hover {
@@ -33,6 +36,11 @@
   font-weight: 400;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
 }
 
 .navBar-container {
@@ -54,7 +62,7 @@
 }
 
 header {
-  background-image: url("../../assets/images/backgroundbr.svg");
+  background-image: url("../../assets/images/bg1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
