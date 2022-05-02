@@ -1,13 +1,17 @@
-$bold-fonts: 'Roboto Mono', monospace;
+// $bold-fonts: 'Oswald', sans-serif;
 // "Fredoka One", cursive;
 $regular-fonts: "Quicksand", sans-serif;
+$main-header-font: 'Josefin Sans', sans-serif;
+@import "../Colors/Colors.scss";
 
-h1, h4{
-    font-family: $bold-fonts;
+h3{
+    font-family: $regular-fonts;
 }
 
 .container-home{
     font-family: $regular-fonts;
+    font-size: 1.1rem;
+    line-height: 1.5;
     display: flex;
     justify-content: space-between;
     .home-container{
@@ -20,7 +24,15 @@ h1, h4{
         margin-top: -40px;
         height: 100vh;
         .home-description{
-            align-self: center;
+            // align-self: center;
+            width: 60%;
+            color: $black;
+            h1{
+                font-size: 3rem;
+                font-family: $main-header-font;
+                font-weight: bolder;
+                color: $black;
+            }
             // min-height: 100vh;
         }
         .home-image{

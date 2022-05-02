@@ -1,4 +1,4 @@
-@import "./Colors.scss";
+@import "../Colors/Colors.scss";
 
 .navBar {
   background-color: $lightbrown;
@@ -8,24 +8,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-    h1 {
-      // flex-grow: 1;
-      // padding-left: 50px;
-    }
+  font-size: 1.1rem;
+  line-height: 1.5;
+    // h1 {
+    //   // flex-grow: 1;
+    //   // padding-left: 50px;
+    // }
     .nav-menu {
       margin-top: 25px;
     li {
       display: inline;
-      padding: 0px 20px 20px 20px;
+      padding: 20px 20px 20px 20px;
 
       a {
         text-decoration: none;
         color: $grey;
+        padding: 10px;
         &:hover {
           color: $black;
-          text-shadow: 1px 1px 1px $blue;
+          text-shadow: 1px 1px 3px $blue;
           font-weight: 400;
-          transition: all 0.2s ease-in;
+          transition: all 0.1s ease-in;
+          border-bottom: 1px solid $black;
         }
       }
       //   &:hover {
@@ -35,6 +39,10 @@
     }
   }
 
+}
+
+.btn {
+   margin-right: 20px;
 }
 
 .navBar-container{
@@ -47,7 +55,7 @@
 
 
 .navIcon {
-  display: none;
+  visibility: hidden;
 }
 
 header {

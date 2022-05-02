@@ -11,6 +11,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .navBar .nav-menu {
@@ -19,20 +21,26 @@
 
 .navBar .nav-menu li {
   display: inline;
-  padding: 0px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .navBar .nav-menu li a {
   text-decoration: none;
   color: #636363;
+  padding: 10px;
 }
 
 .navBar .nav-menu li a:hover {
   color: black;
-  text-shadow: 1px 1px 1px #5996f9;
+  text-shadow: 1px 1px 3px #5996f9;
   font-weight: 400;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  border-bottom: 1px solid black;
+}
+
+.btn {
+  margin-right: 20px;
 }
 
 .navBar-container {
@@ -50,7 +58,7 @@
 }
 
 .navIcon {
-  display: none;
+  visibility: hidden;
 }
 
 header {

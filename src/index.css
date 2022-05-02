@@ -8,3 +8,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* @media screen and (max-width: 600px) {
+  .navbar{
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .buttons{
+    display: none;
+  }
+  .navIcon{
+    visibility: revert;
+  }
+
+} */

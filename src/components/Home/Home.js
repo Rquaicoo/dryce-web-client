@@ -1,12 +1,13 @@
 import React from 'react'
 import homeImage from '../../assets/images/home-image.png'
 import './Home.css'
+import './HomeMq.css'
 import Buttons from '../Buttons/Buttons'
 
 const Home = () => {
   return (
     <div className='container-home'>
-        <div className='home-container'>
+        <div className='home-container' id="Home">
 
             <div className='home-description'>
                 <h1>WELCOME TO DRYCE LAUNDRY SERVICES</h1>
@@ -26,7 +27,7 @@ const Home = () => {
             </div>
 
             <div className='home-img'>
-                <img src={homeImage} width={"800px"} height={"700px"} alt="people washing"></img>
+                <img src={homeImage} width={"700px"} height={"700px"} alt="people washing"></img>
             </div>
 
         </div>
