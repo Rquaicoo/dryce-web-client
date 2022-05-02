@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Header.css';
+import './HeaderMQ.css';
 import './Navlinks.js';
 import { LinkNames } from './Navlinks';
 import Buttons from '../Buttons/Buttons';
@@ -22,7 +23,7 @@ class Header extends Component {
                 <h1>DrYce</h1>
                 {/*menu bar with js condition==> ? clicked "classMenu" : "bar or X"*/}
                 <div className='navIcon' onClick={this.handleClick}>
-                  <i class={this.state.clicked ? "fa-solid fa-bars" : "fa-solid fa-xmark"}></i>
+                  <i class={this.state.clicked ? "fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
                 </div>
         
                 <div className='buttons'>
@@ -40,8 +41,7 @@ class Header extends Component {
                     <Buttons 
                       title="Sign In" 
                       color={"rgb(255, 189, 23)"} 
-                      textColor={"white"} 
-                      margin={'20px'} 
+                      textColor={"white"}  
                       className={"signIn"}
                       >
 

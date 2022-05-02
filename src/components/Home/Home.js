@@ -1,6 +1,7 @@
 import React from 'react'
 import homeImage from '../../assets/images/home-image.png'
 import './Home.css'
+import './HomeMq.css'
 import Buttons from '../Buttons/Buttons'
 
 const Home = () => {

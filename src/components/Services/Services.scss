@@ -1,7 +1,7 @@
 $bold-fonts: "Fredoka One", cursive;
 $regular-fonts: "Quicksand", sans-serif;
 
-@import '../Navbar/Colors.scss';
+@import "../Colors/Colors.scss";
 
 h1, h2, h4{
     font-family: $bold-fonts;

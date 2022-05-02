@@ -1,7 +1,7 @@
 import React from 'react';
 import './Buttons.css';
 
-const Buttons = ({title, color, textColor, bordercolor, border, margin, bradius, shadow}) => {
+const Buttons = ({title, color, textColor, bordercolor, border, bradius, shadow}) => {
   return (
 
       <button 
@@ -12,8 +12,7 @@ const Buttons = ({title, color, textColor, bordercolor, border, margin, bradius,
         boxShadow: shadow,
         borderRadius: bradius,
         borderStyle: 'solid',
-        borderColor: bordercolor, 
-        marginRight: margin}} className='btn' >
+        borderColor: bordercolor}} className='btn' >
           {title}
       </button>
   )

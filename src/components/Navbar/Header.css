@@ -21,7 +21,7 @@
 
 .navBar .nav-menu li {
   display: inline;
-  padding: 0px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .navBar .nav-menu li a {
@@ -32,15 +32,15 @@
 
 .navBar .nav-menu li a:hover {
   color: black;
-  text-shadow: 1px 1px 1px #5996f9;
+  text-shadow: 1px 1px 3px #5996f9;
   font-weight: 400;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  border-bottom: 1px solid black;
 }
 
-button:hover {
-  cursor: pointer;
-  color: black;
+.btn {
+  margin-right: 20px;
 }
 
 .navBar-container {
@@ -58,11 +58,11 @@ button:hover {
 }
 
 .navIcon {
-  display: none;
+  visibility: hidden;
 }
 
 header {
-  background-image: url("../../assets/images/bg1.svg");
+  background-image: url("../../assets/images/backgroundbr.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

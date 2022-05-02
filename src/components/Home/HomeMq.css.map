@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,eAAe,CAAA;IACX,UAAU,EAAE,IAAI;IAChB,WAAW,EAAE,MAAM;IACnB,KAAK,EAAE,KAAK;GACf;EACD,AAAA,GAAG,CAAA;IACC,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;GACf;EACD,AACI,iBADa,CACb,EAAE,CAAA;IACF,SAAS,EAAE,IAAI;GAClB",
+    "sources": [
+        "HomeMq.scss",
+        "../Colors/Colors.scss"
+    ],
+    "names": [],
+    "file": "HomeMq.css"
+}

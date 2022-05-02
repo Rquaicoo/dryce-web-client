@@ -2,7 +2,7 @@
 // "Fredoka One", cursive;
 $regular-fonts: "Quicksand", sans-serif;
 $main-header-font: 'Josefin Sans', sans-serif;
-@import '../Navbar/Colors.scss';
+@import "../Colors/Colors.scss";
 
 h3{
     font-family: $regular-fonts;
@@ -26,12 +26,12 @@ h3{
         .home-description{
             // align-self: center;
             width: 60%;
-            color: $white;
+            color: $black;
             h1{
                 font-size: 3rem;
                 font-family: $main-header-font;
                 font-weight: bolder;
-                color: $white;
+                color: $black;
             }
             // min-height: 100vh;
         }
