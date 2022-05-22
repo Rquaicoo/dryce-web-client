@@ -6,7 +6,7 @@ import contactImg from '../../assets/images/contact-us.jpg'
 const Contact = () => {
   return (
     <div className='container-contact'>
-        <div className='contact-container'>
+        <div className='contact-container' id="Contact">
 
             <div className='contact-content'>
                 <form>
@@ -48,7 +48,7 @@ const Contact = () => {
                 </Buttons> */}
             </div>
             <div className='contact-description'>
-                <img src={contactImg} alt="person pressing message" height={400} width={500} className='contact-img'></img>
+                <img src={contactImg} alt="contact-Img" height={400} width={500} className='contact-img'></img>
             </div>
 
             

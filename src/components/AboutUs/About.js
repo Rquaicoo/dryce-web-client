@@ -6,7 +6,7 @@ import aboutImg from '../../assets/images/about-wash.jpg'
 const About = () => {
   return (
     <div className='container-about'>
-        <div className='about-container'>
+        <div className='about-container' id="About">
 
             <div className='about-content'>
                 <h2>ABOUT US</h2>
@@ -25,7 +25,7 @@ const About = () => {
                 </Buttons>
             </div>
             <div className='about-description'>
-                <img src={aboutImg} alt="washing machine" height={400} width={500} className='about-img'></img>
+                <img src={aboutImg} alt="about-img" height={400} width={500} className='about-img'></img>
             </div>
 
             

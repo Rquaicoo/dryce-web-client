@@ -1,0 +1,71 @@
+@import "../Colors/Colors.scss";
+
+@media screen and (max-width: 600px) {
+  .navBar {
+    position: relative;
+    width: 100vw;
+    margin: 0;
+    margin: none;
+    padding : 10px 0;
+    min-height: 20px;
+    // display: inline-block;
+    font-size: 0.9rem;
+    line-height: 0;
+    // overflow-x: hidden;
+    
+  }
+  .navBar-container{
+    width: 100%;
+    padding: 0px 10px;
+    // height: auto;
+    }
+    .navIcon{
+        visibility: visible;
+        font-size: 1.5rem;
+        position: absolute;
+        right: 0;
+        padding-right: 10px;
+    }
+    
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 400px;
+        position: absolute;
+        top: 23px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .nav-menu.active{
+        background-color: $white;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        padding: 0;
+    }
+    .navLinks{
+        text-align: center;
+        width: 100%;
+        display: table;
+        font-size: 1.1rem;
+        &hover{
+            background-color: $lightbrown;
+            border-radius: 0;
+        }
+    }
+    .btn{
+        width: 60%;
+        margin-top: 10px;
+    }
+    
+    header{
+        background-image: none;
+        background-color: $white;
+    }
+
+}

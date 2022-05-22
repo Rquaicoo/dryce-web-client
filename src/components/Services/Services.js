@@ -1,14 +1,14 @@
 import React from 'react'
 import './Services.css'
-import aboutImage from '../../assets/images/wash-machine.jpg'
+import servicesImage from '../../assets/images/wash-machine.jpg'
 import Buttons from '../Buttons/Buttons'
 
 const Services = () => {
   return (
     <div className='container-services'>
-        <div className='services-container'>
+        <div className='services-container' id="Services">
             <div className='services-description'>
-                <img src={aboutImage} alt="washing machine and ladder" height={400} width={500} className='services-img'></img>
+                <img src={servicesImage} alt="services-img" height={400} width={500} className='services-img'></img>
             </div>
 
             <div className='services-content'>
