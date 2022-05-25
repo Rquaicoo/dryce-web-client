@@ -1,0 +1,34 @@
+@import "../Colors/Colors.scss";
+
+@media screen and (max-width: 600px) {
+    .container-contact{
+        justify-content: flex-start;
+        .contact-container{
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            border-radius: 0;
+            width: 100%;
+            padding: 10px;
+            .contact-description{
+                width: 100%;
+                padding: 10px;
+                flex-direction: column;
+                img{
+                    width: 100%;
+                    height: 300px;
+                    margin: auto;
+
+                }
+                .contact-img{
+                    border-radius: 5px;
+                }
+            }
+            .contact-content{
+                width: 100%;
+                padding: 0;
+                padding: 20px;
+            }
+            
+        }
+    }
+}

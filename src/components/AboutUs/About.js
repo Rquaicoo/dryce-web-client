@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import './AboutMQ.css'
 import Buttons from '../Buttons/Buttons'
 import aboutImg from '../../assets/images/about-wash.jpg'
 
