@@ -1,5 +1,6 @@
 import React from 'react'
 import './Services.css'
+import './ServicesMQ.css'
 import servicesImage from '../../assets/images/wash-machine.jpg'
 import Buttons from '../Buttons/Buttons'
 

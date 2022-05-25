@@ -1,0 +1,34 @@
+@import "../Colors/Colors.scss";
+
+@media screen and (max-width: 600px) {
+    .container-services{
+        justify-content: flex-start;
+        .services-container{
+            flex-direction: column;
+            justify-content: flex-start;
+            border-radius: 0;
+            width: 100%;
+            padding: 10px;
+            .services-description{
+                width: 100%;
+                padding: 10px;
+                flex-direction: column;
+                img{
+                    width: 100%;
+                    height: 300px;
+                    margin: auto;
+
+                }
+                .services-img{
+                    border-radius: 5px;
+                }
+            }
+            .services-content{
+                width: 100%;
+                padding: 0;
+                padding: 20px;
+            }
+            
+        }
+    }
+}

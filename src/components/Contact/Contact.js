@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import './ContactMQ.css'
 import Buttons from '../Buttons/Buttons'
 import contactImg from '../../assets/images/contact-us.jpg'
 
@@ -50,7 +51,7 @@ const Contact = () => {
             <div className='contact-description'>
                 <img src={contactImg} alt="contact-Img" height={400} width={500} className='contact-img'></img>
             </div>
-
+            
             
 
         </div>

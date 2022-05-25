@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1030px) {
   .navBar {
     position: relative;
     width: 100vw;
@@ -69,6 +69,8 @@
   header {
     background-image: none;
     background-color: white;
+    height: auto;
+    padding-bottom: 10px;
   }
 }
 /*# sourceMappingURL=HeaderMQ.css.map */
