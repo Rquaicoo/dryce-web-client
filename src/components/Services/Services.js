@@ -1,41 +1,15 @@
 import React from 'react'
-import Modal from 'react-modal';
 import './Services.css'
 import './ServicesMQ.css'
 import servicesImage from '../../assets/images/wash-machine.jpg'
 import Buttons from '../Buttons/Buttons'
+import Modal from '../Modal/Modal'
+import { useState } from 'react'
 
 
-const customStyles = {
-    content: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
-      transform: 'translate(-50%, -50%)',
-    },
-  };
-  
-Modal.setAppElement('Services');
+
 const Services = () =>{
-
-    let subtitle;
-    const [modalIsOpen, setIsOpen] = React.useState(false);
-
-    function openModal() {
-        setIsOpen(true);
-    }
-
-    function afterOpenModal() {
-        // references are now sync'd and can be accessed.
-        subtitle.style.color = '#f00';
-    }
-
-    function closeModal() {
-        setIsOpen(false);
-    }
-
+    const [show, setShow] = useState(false)
 
     return (
 
@@ -58,22 +32,11 @@ const Services = () =>{
                         color={"rgb(9, 69, 231)"} 
                         textColor={"white"} 
                         bradius={"10px"} 
-                        onClick={openModal}
+                        onclick= {() => setShow(true)}
                         >
                     </Buttons>
-                    <Modal
-                        isOpen={modalIsOpen}
-                        onAfterOpen={afterOpenModal}
-                        onRequestClose={closeModal}
-                        style={customStyles}
-                        contentLabel="Example Modal"
-                    >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </Modal>
                 </div>
+                <Modal onClose={() => setShow(false)} show={show}/>
 
                 
 
