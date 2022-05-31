@@ -12,10 +12,7 @@ const About = () => {
             <div className='about-content'>
                 <h2>ABOUT US</h2>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                We are dryce, an online laundry service platform which provides services to both vendors and customers alike nationwide. The service may differ per the individual be it a one that gives the service or one in need or the service.We also have a mobile application available for download on playstore as well as a website.
                 </p>
                 <Buttons 
                     title="Learn More" 
