@@ -22,10 +22,16 @@ const Services = () =>{
                 <div className='services-content'>
                     <h2>SERVICES</h2>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Dryce is a a very user freindly web application that is capable of performing all laundary services ranging from gents to ladies wear.
+                    <p>Users of dryce can make requests for their clothes to be washed. This application accepts orders for all kinds of clothes. Ironing services are also available on the application</p>
+                    <p>Depending on the type of clothes, there are price tags to it</p>
+                    <p>Express services require additional cost</p>
+                    <p>When the clothes are washed, clients can either pick it up themselves or it can be deliverd to their doorstep</p>
+                    HURRAY!!!! Let's enjoy Dryce
+                
+
+
+
                     </p>
                     <Buttons 
                         title="Learn More" 
