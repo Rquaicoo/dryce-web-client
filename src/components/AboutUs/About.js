@@ -1,17 +1,21 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
+
 import './About.css'
 import './AboutMQ.css'
 import Buttons from '../Buttons/Buttons'
 import aboutImg from '../../assets/images/about-wash.jpg'
+
 import ModalAbout from './ModalAbout.css'
+
+
+import Modal from '../Modal/Modal'
 
 
 const About = () => {
 
     const [show, setShow] = useState(false)
-
-    const handleModal = (event) => {
-
+    
+ const  handleModal = (event) => {
         console.log('Modal is clicked')
         setShow(!show)
     }

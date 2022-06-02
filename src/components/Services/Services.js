@@ -11,6 +11,12 @@ import { useState } from 'react'
 const Services = () =>{
     const [show, setShow] = useState(false)
 
+ const  handleModal = (event) => {
+       
+        console.log('Modal is clicked')
+        setShow(!show)
+    }
+
     return (
 
         <div className='container-services'>
@@ -38,7 +44,7 @@ const Services = () =>{
                         color={"rgb(9, 69, 231)"} 
                         textColor={"white"} 
                         bradius={"10px"} 
-                        onclick= {() => setShow(true)}
+                        funct={handleModal}
                         >
                     </Buttons>
                 </div>
