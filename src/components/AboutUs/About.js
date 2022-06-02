@@ -1,19 +1,25 @@
 import React, {useState} from 'react'
+
 import './About.css'
 import './AboutMQ.css'
 import Buttons from '../Buttons/Buttons'
 import aboutImg from '../../assets/images/about-wash.jpg'
+
+import ModalAbout from './ModalAbout.css'
+
+
 import Modal from '../Modal/Modal'
+
 
 const About = () => {
 
     const [show, setShow] = useState(false)
-
+    
  const  handleModal = (event) => {
-       
         console.log('Modal is clicked')
         setShow(!show)
     }
+
 
   return (
     <div className='container-about'>
@@ -29,9 +35,9 @@ const About = () => {
                     color={"rgb(9, 69, 231)"} 
                     textColor={"white"} 
                     bradius={"10px"} >
-                    funct={handleModal}
+                     funct={handleModal}   
                 </Buttons>
-                <Modal onClose={() => setShow(false)} show={show}/>
+              <ModalAbout onClose={() => setShow(false)} show={show}/>
             </div>
             <div className='about-description'>
                 <img src={aboutImg} alt="about-img" height={400} width={500} className='about-img'></img>
