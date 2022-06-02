@@ -1,10 +1,10 @@
 import React from 'react';
 import './Buttons.css';
 
-const Buttons = ({title, color, textColor, bordercolor, border, bradius, shadow}) => {
+const Buttons = ({title, color, textColor, bordercolor, border, bradius, shadow, funct}) => {
   return (
 
-      <button 
+      <button onClick={funct}
       style={{
         backgroundColor: color, 
         color: textColor, 
