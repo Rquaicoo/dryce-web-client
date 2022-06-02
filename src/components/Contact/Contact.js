@@ -1,10 +1,37 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Contact.css'
 import './ContactMQ.css'
 import Buttons from '../Buttons/Buttons'
 import contactImg from '../../assets/images/contact-us.jpg'
 
 const Contact = () => {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+       fetch('https://dryce-staging.herokuapp.com/api/contact', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            name: name,
+            email: email,
+            message: message
+        })
+    })
+    .then(res => {
+        if (res.status === 201) {
+            alert('Message sent successfully')
+            //refresh app
+            window.location.reload()
+        }
+    })
+    }
+
+
   return (
     <div className='container-contact'>
         <div className='contact-container' id="Contact">
@@ -13,13 +40,13 @@ const Contact = () => {
                 <form>
                     <h2>GET IN TOUCH</h2>
                     <label>Full name: </label><br/>
-                    <input placeholder='enter your full name'></input><br/>
+                    <input placeholder='enter your full name' onChange={(text) => {setName(text.target.value)}}></input><br/>
 
                     <label>Email: </label><br/>
-                    <input placeholder='enter your email address'></input><br/>
+                    <input placeholder='enter your email address'  onChange={(email) => {setEmail(email.target.value)}} ></input><br/>
 
                     <label>Your message: </label><br/>
-                    <textarea rows={3} placeholder="enter message here"></textarea>
+                    <textarea rows={3} placeholder="enter message here"  onChange={(text) => {setMessage(text.target.value)}}></textarea>
                     <p></p>
                     <Buttons
                         title="Submit" 
@@ -28,25 +55,11 @@ const Contact = () => {
                         border={'2px'}
                         bordercolor={'rgb(255, 255, 255'} 
                         bradius={'0'}
+                        funct={handleSubmit}
                          >
                     </Buttons>
 
                 </form>
-                
-
-                {/* <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p> */}
-                {/* <Buttons 
-                    title="Learn More" 
-                    color={"rgb(9, 69, 231)"} 
-                    textColor={"white"} 
-                    bradius={"10px"} >
-                        
-                </Buttons> */}
             </div>
             <div className='contact-description'>
                 <img src={contactImg} alt="contact-Img" height={400} width={500} className='contact-img'></img>
