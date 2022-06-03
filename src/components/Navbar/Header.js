@@ -5,6 +5,7 @@ import './Navlinks.js';
 import { LinkNames } from './Navlinks';
 import Buttons from '../Buttons/Buttons';
 import Home from '../Home/Home';
+import logo from '../../assets/images/drycelogob.png';
 
 class Header extends Component {
   
@@ -20,7 +21,8 @@ class Header extends Component {
       <header>
           <nav className="navBar">
               <div className="navBar-container">
-                <h1>DrYce</h1>
+                <h1><img src={logo} width={"41px"} height={"41px"} alt="logo" className='logoimg' 
+                  style={{marginBottom: '-10px'}}></img>DrYce</h1>
                 {/*menu bar with js condition==> ? clicked "classMenu" : "bar or X"*/}
                 <div className='navIcon' onClick={this.handleClick}>
                   <i class={this.state.clicked ? "fa-solid fa-xmark" : "fa-solid fa-bars" }></i>
