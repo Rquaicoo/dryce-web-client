@@ -3,14 +3,14 @@ import './About.css'
 import './AboutMQ.css'
 import Buttons from '../Buttons/Buttons'
 import aboutImg from '../../assets/images/about-wash.jpg'
-import ModalAbout from './ModalAbout.css'
+import Modal from '../Modal/Modal'
 
 
 const About = () => {
 
     const [show, setShow] = useState(false)
     
- const  handleModalAbout = (event) => {
+ const  handleModal = (event) => {
         console.log('Modal is clicked')
         setShow(!show)
     }
@@ -35,11 +35,11 @@ const About = () => {
                     color={"rgb(9, 69, 231)"} 
                     textColor={"white"} 
                     bradius={"10px"} 
-                    funct={handleModalAbout}   
+                    funct={handleModal}   
                     >
                 </Buttons>
             </div>
-            <ModalAbout onClose={() => setShow(false)} show={show}/>
+            <Modal onClose={() => setShow(false)} show={show}/>
             
             <div className='about-description'>
                 <img src={aboutImg} alt="about-img" height={400} width={500} className='about-img'></img>
