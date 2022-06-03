@@ -28,17 +28,17 @@ const Services = () =>{
                 <div className='services-content'>
                     <h2>SERVICES</h2>
                     <p>
-                    Dryce is a a very user freindly web application that is capable of performing all laundary services ranging from gents to ladies wear.
-                    <p>Users of dryce can make requests for their clothes to be washed. This application accepts orders for all kinds of clothes. Ironing services are also available on the application</p>
-                    <p>Depending on the type of clothes, there are price tags to it</p>
-                    <p>Express services require additional cost</p>
-                    <p>When the clothes are washed, clients can either pick it up themselves or it can be deliverd to their doorstep</p>
-                    HURRAY!!!! Let's enjoy Dryce
-                
-
-
-
+                    <span style={{color: 'blue', fontWeight: 'bold'}}>Dryce</span> is a a very user freindly web application that is capable of performing all laundary services ranging from gents to ladies wear.
+                    Users of dryce can make requests for their clothes to be washed. <br/>
+                    This application accepts orders for all kinds of clothes. Ironing services are also available on the application
+                    Depending on the type of clothes, there are price tags to it.
+                    Express services require additional cost.
+                    When the clothes are washed, clients can either pick it up themselves or it can be deliverd to their doorstep.
+                    <br/>
+                    HURRAY!!!!<br/>
+                    Let's enjoy <span style={{color: 'blue', fontWeight: 'bold'}}>Dryce</span>
                     </p>
+
                     <Buttons 
                         title="Learn More" 
                         color={"rgb(9, 69, 231)"} 

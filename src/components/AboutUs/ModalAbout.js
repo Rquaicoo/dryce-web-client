@@ -24,4 +24,4 @@ const ModalAbout = props => {
   )
 }
 
-export default Modal
+export default ModalAbout
